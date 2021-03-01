@@ -79,6 +79,18 @@
 }
 /* End Portfolio */
 
+/* About */
+
+/* Test */
+.bottone {
+    text-align: center;
+}
+.bottone a {
+    border: 1px solid white;
+    padding: 15px;
+}
+/* End About */
+
 /* END MAIN */
 
 /* FOOTER */
