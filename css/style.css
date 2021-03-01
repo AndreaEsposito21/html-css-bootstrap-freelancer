@@ -1,7 +1,14 @@
 /* COMMON */
-.text {
-    color: white;
+[class*="text-"] {
     text-transform: uppercase;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-gray {
+    color: #333333;
 }
 
 /* HEADER */
@@ -39,7 +46,7 @@
 /* End Nav */
 
 /* Jambotron */
-.jambotron {
+.section-green {
     background-color: #1abc9c;
 }
 
@@ -51,7 +58,7 @@
     padding: 30px 0;
 }
 
-.jambotron h1 {
+.section-green h1 {
     font-size: 40px;
     
 }
