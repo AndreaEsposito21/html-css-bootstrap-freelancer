@@ -69,6 +69,16 @@
 /* END HEADER */
 
 /* MAIN */
+
+/* Portfolio */
+.square-img {
+    max-width: 100%;
+    background-color: #ba4b63;
+    /* test */
+    height: 270px;
+}
+/* End Portfolio */
+
 /* END MAIN */
 
 /* FOOTER */
