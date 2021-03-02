@@ -89,6 +89,26 @@
     border: 1px solid white;
     padding: 15px;
 }
+
+.contact div {
+    padding: 20px 0;
+}
+
+.bot-border {
+    border-bottom: 1px solid lightgray;
+}
+
+.top-border {
+    border-top: 1px solid lightgray;
+    margin-top: 10%;
+}
+
+.top-border a {
+    background-color: #1abc9c;
+    border-radius: 10%;
+    padding: 15px;
+    color: white;
+}
 /* End About */
 
 /* END MAIN */
