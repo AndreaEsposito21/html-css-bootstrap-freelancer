@@ -3,6 +3,12 @@
     text-transform: uppercase;
 }
 
+.small-container {
+    width: 70%;
+    max-width: 900px;
+    margin: auto;
+}
+
 .text-white {
     color: white;
 }
@@ -101,6 +107,11 @@
     padding: 15px;
 }
 
+.about p{
+    color: white;
+    font-size: 20px;
+}
+
 .contact div {
     padding: 20px 0;
 }
@@ -125,4 +136,45 @@
 /* END MAIN */
 
 /* FOOTER */
+
+/* Info */
+.info {
+    background-color: #3a546d;
+}
+
+.info h4 {
+    text-transform: uppercase;
+}
+
+.info .inner_col {
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.icons a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+
+    /* border: 1px solid white;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 15px 0; */
+}
+
+.color-green {
+    color: #1abc9c;
+}
+/* End Info */
+
+/* Copyright */
+.copyright {
+    color: white;
+    background-color: #2c3e50;
+    text-align: center;
+}
+/* End Copyright */
 /* END FOOTER */
