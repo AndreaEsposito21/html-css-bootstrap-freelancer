@@ -3,6 +3,14 @@
     text-transform: uppercase;
 }
 
+.section-green {
+    background-color: #1abc9c;
+}
+
+.section-pad {
+    margin-bottom: 30px;
+}
+
 .small-container {
     width: 70%;
     max-width: 900px;
@@ -69,9 +77,6 @@
 /* End Nav */
 
 /* Jambotron */
-.section-green {
-    background-color: #1abc9c;
-}
 
 .text-crentred {
     text-align: center;
@@ -93,46 +98,46 @@
 
 /* MAIN */
 
-/* Portfolio */
-/* End Portfolio */
-
 /* About */
 
-/* Test */
 .bottone {
     text-align: center;
+    padding: 30px 0;
 }
-.bottone a {
+
+.btn_button {
+    background-color: #1abc9c;
+    color: white;
     border: 1px solid white;
-    padding: 15px;
+}
+
+.btn_button:hover {
+    background-color: white;
+    color: #3a546d;
 }
 
 .about p{
     color: white;
     font-size: 20px;
 }
-
-.contact div {
-    padding: 20px 0;
-}
-
-.bot-border {
-    border-bottom: 1px solid lightgray;
-}
-
-.top-border {
-    border-top: 1px solid lightgray;
-    margin-top: 10%;
-}
-
-.top-border a {
-    background-color: #1abc9c;
-    border-radius: 10%;
-    padding: 15px;
-    color: white;
-}
 /* End About */
 
+/* Form */
+.form-group input,
+.form-group textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 40px 0;
+}
+
+.form-group input::placeholder,
+.form-group textarea {
+    color: #536270;
+}
+/* End Form */
 /* END MAIN */
 
 /* FOOTER */
